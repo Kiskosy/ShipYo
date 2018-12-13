@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="oceanBlue">#1C6BA0</color>
+    <color name="lightBrown">#F4A460</color>
+    <color name="defaultBlack">#000000</color>
+    <color name="defaultWhite">#FFFFFF</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="lightOcean">#217ebc</color>
+    <color name="red">#ff0015</color>
+    <color name="gridColor">#5cb5b5</color>
+</resources>

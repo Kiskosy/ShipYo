@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_default_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fullos_palya"
+    tools:context="kosy.shipyo.loginPage">
+
+    <!-- fix egyenlőre az érték, dinamikussá tenni -->
+
+    <TextView
+        android:text="Escape the Ship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/game_title_textview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="36sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="login"
+        android:textSize="12dp"
+        android:onClick="newGame"
+        android:padding="5dp"
+        android:background="@color/lightBrown"
+        android:textColor="@color/defaultBlack"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/reg_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/reg_button"
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="Register"
+        android:textSize="12dp"
+        android:onClick="regPage"
+        android:layout_marginBottom="122dp"
+        android:background="@color/lightBrown"
+        android:textColor="@color/defaultBlack"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_alignStart="@+id/login_button" />
+
+    <Button
+        android:id="@+id/temp_button"
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="Register"
+        android:textSize="12dp"
+        android:onClick="regPage"
+        android:layout_marginBottom="80dp"
+        android:background="@color/lightBrown"
+        android:textColor="@color/defaultBlack"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_alignStart="@+id/login_button" />
+
+
+    <EditText
+        android:id="@+id/username_box"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:layout_above="@+id/password_textview"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tv_border"
+        android:textColor="@color/defaultBlack"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_textview"
+        android:layout_above="@+id/username_box"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:background="@drawable/tv_border"
+        android:textColor="@color/defaultBlack"
+        android:maxLines="1"/>
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_textview"
+        android:layout_above="@+id/password_box"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:background="@drawable/tv_border"
+        android:textColor="@color/defaultBlack"/>
+
+    <TextView
+        android:text="Please log in first :)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="24sp"
+        android:layout_above="@+id/username_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/password_box"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/login_button"
+        android:layout_alignLeft="@+id/username_box"
+        android:layout_alignStart="@+id/username_box"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/tv_border"
+        android:maxLines="1"
+        android:textColor="@color/defaultBlack"
+        android:textSize="24sp" />
+
+</RelativeLayout>

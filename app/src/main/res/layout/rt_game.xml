@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fullos_palya_kijarattal">
+
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="6"
+    android:columnWidth="120px"
+    android:orientation="vertical"
+    android:layout_marginTop="375px"
+    android:rowCount="6"
+    android:stretchMode="columnWidth">
+
+        <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="120px"
+        android:layout_height="120px">
+
+        <ImageView
+            android:id="@+id/IV1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        >
+
+        <ImageView
+            android:id="@+id/IV2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        >
+
+        <ImageView
+            android:id="@+id/IV3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL4"
+        android:layout_width="120px"
+        android:layout_height="120px"
+       >
+
+        <ImageView
+            android:id="@+id/IV4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL5"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        >
+
+        <ImageView
+            android:id="@+id/IV5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL6"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        >
+
+        <ImageView
+            android:id="@+id/IV6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL7"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL8"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL9"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL10"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL11"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL12"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL13"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL14"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL15"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL16"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL17"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL18"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL19"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL20"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL21"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL22"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL23"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL24"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL25"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL26"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL27"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL28"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV28"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL29"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV29"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL30"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL31"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL32"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL33"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL34"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL35"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV35"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL36"
+        android:layout_width="120px"
+        android:layout_height="120px"
+         >
+
+        <ImageView
+            android:id="@+id/IV36"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/scoreID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Score 0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/downloadMapBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scoreID"
+        android:layout_marginTop="22dp"
+        android:text="Press to start the game." />
+
+
+</RelativeLayout>
